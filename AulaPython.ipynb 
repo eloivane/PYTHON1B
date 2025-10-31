@@ -4,7 +4,7 @@
   "metadata": {
     "colab": {
       "provenance": [],
-      "authorship_tag": "ABX9TyPhb/yFUquyuPk0FOBEYdJY",
+      "authorship_tag": "ABX9TyNxfsz9F5L0CmHfZb+e/Tel",
       "include_colab_link": true
     },
     "kernelspec": {
@@ -161,7 +161,7 @@
     {
       "cell_type": "markdown",
       "source": [
-        "#**aula 4  IMC** 🦖⚽️⭐️"
+        "#**aula 4  IMC** 🦜💚🏆"
       ],
       "metadata": {
         "id": "ZYA00wGtudIL"
@@ -192,7 +192,7 @@
     {
       "cell_type": "markdown",
       "source": [
-        "#**aula 5** 🐊🌊🇦🇷"
+        "#**aula 5** 🏟️💚⚽"
       ],
       "metadata": {
         "id": "KRsFeOmMkKfx"
@@ -203,13 +203,33 @@
       "source": [
         "print(\"Olá, sou seu assistente virtual, em que posso ajudar?\")\n",
         "nome = input(\"Digite seu nome: \")\n",
-        "resposta = input (f\"Olá {nome}, qual tema você deseja conversar? Python, Javascrpit ou Matemática: \")"
+        "resposta = input (f\"Olá {nome}, qual tema você deseja conversar? Python, Javascrpit ou Matemática: \").lower()\n",
+        "if resposta == \"python\":\n",
+        "  print(f\"Ótimo {nome}, vamos falar sobre Python. \\n Python é usada em inteligência artificial, análise de dados, desenvolvimento web e automação de tarefas.\")\n",
+        "if resposta == \"javacript\":\n",
+        "  print(f\"Ótimo {nome}, vamos falar sobre Javacript. \\n JavaScript é usada em desenvolvimento web, tanto no front-end (navegadores) quanto no back-end (com Node.js).\")\n",
+        "if resposta == \"matemática\":\n",
+        "  print(f\"Ótimo {nome}, vamos falar sobre Matemática.\\n A matemática é usada para estudar números, formas, medidas e padrões, ajudando a resolver problemas e entender o mundo ao nosso redor.\")\n",
+        "else:\n",
+        "  print(f\"que pena {nome}, não sei falar sobre esse assunto.\")"
       ],
       "metadata": {
-        "id": "vtK_16Y-lw3I"
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "vtK_16Y-lw3I",
+        "outputId": "0f016c36-939c-4b76-8178-5945b2365926"
       },
       "execution_count": null,
-      "outputs": []
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Olá, sou seu assistente virtual, em que posso ajudar?\n"
+          ]
+        }
+      ]
     }
   ]
 }
